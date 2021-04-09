@@ -9,7 +9,7 @@ const ISShop = React.createClass({
         const ITEMS = [];
         this.props.items.forEach(b => {
             let itemCode = 
-            React.DOM.div({key: b.name, className: "section__item"},
+            React.DOM.div({key: b.code, className: "section__item"},
                 React.DOM.img({src: b.url, alt: "parfum", className: "item__photo"}),
                 React.DOM.span({className: "item__name"}, b.name),
                 React.DOM.span({className: "item__count"}, "Осталось " + b.count + " ед."),
