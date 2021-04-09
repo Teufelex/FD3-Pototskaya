@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia;
+    text-align: center;
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.397);
+}
+
+.section .section__name {
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.397);
+    font-size: 2rem;
+}
+
+.section .section__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 2rem;
+}
+
+.section .section__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18vw;
+    border-radius: 20px;
+    border: 1px solid rgba(109, 109, 109, 0.08);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    overflow: hidden;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.section .item__photo {
+   height: 15vw;
+   margin-top: 10px;
+}
+
+.section .item__name {
+    margin: 1rem 0;
+    height: 15vh;
+    overflow: hidden;
+}
+
+.section .item__count {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.section .item__price {
+    font-size: 2rem;
+    margin: 15px 0;
+}
