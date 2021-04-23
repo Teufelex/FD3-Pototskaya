@@ -1,0 +1,5 @@
+.wocab__block .wocab__list {
+    height: 300px;
+    width: 30vw;
+    overflow: auto;
+}
