@@ -1,48 +1,36 @@
-IsShopItem = React.createClass({
+const IsShopItem = React.createClass({
+
     displayName: "isShopItem",
 
-    getInitialState: function() {
-        return {
-            activeElem: null,
-            itemList: this.props.items,
-            deletedElements: [],
-        }
+    propTypes: {
+        name: React.PropTypes.string.isRequired,
+        price: React.PropTypes.number.isRequired,
+        url: React.PropTypes.string.isRequired,
+        count: React.PropTypes.number.isRequired,
+        code: React.PropTypes.number.isRequired,
+        isActive: React.PropTypes.bool.isRequired,
+        cbDeleted: React.PropTypes.func.isRequired,
+        cbClicked: React.PropTypes.func.isRequired,
     },
 
-    elementClicked: function(e) {
-        if (this.state.activeElem !== null && this.state.activeElem !== e.currentTarget) 
-            this.state.activeElem.classList.remove("section__item--active");
-        e.currentTarget.classList.toggle("section__item--active");
-        this.setState({activeElem: e.currentTarget});
+    elementClicked: function() {
+       this.props.cbClicked(this.props.code);
     },
 
-    elementDelete: function(e) {
-        let isAgree = confirm("Вы уверены, что хотите удалить?");
-        if (isAgree) {
-            let elemKey = e.target.parentNode.getAttribute("data-key");
-            let newDeleted = JSON.parse(JSON.stringify(this.state.deletedElements));
-            newDeleted.push(+elemKey);
-            this.setState({deletedElements: newDeleted});
-        }
+    elementDelete: function() {
+        if (confirm("Вы уверены что хотите удалить этот товар?"))
+            this.props.cbDeleted(this.props.code);
     },
 
     render: function() {
-        const ITEMS = [];
-        this.props.items.forEach(b => {
-            let itemCode = 
-            React.DOM.div({key: b.code, className: "section__item", "data-key": b.code, 
-                    onClick: this.elementClicked},
-                React.DOM.img({src: b.url, alt: "parfum", className: "item__photo"}),
-                React.DOM.span({className: "item__name"}, b.name),
-                React.DOM.span({className: "item__count"}, "Осталось " + b.count + " ед."),
-                React.DOM.span({className: "item__price"}, b.price + "p."),
+        return React.DOM.div({className: (this.props.isActive) ? 
+            "section__item section__item--active" : "section__item", 
+            onClick: this.elementClicked},
+                React.DOM.img({src: this.props.url, alt: "parfum", className: "item__photo"}),
+                React.DOM.span({className: "item__name"}, this.props.name),
+                React.DOM.span({className: "item__count"}, "Осталось " + this.props.count + " ед."),
+                React.DOM.span({className: "item__price"}, this.props.price + "p."),
                 React.DOM.button({className: "item__btn", onClick: this.elementDelete}, "Delete"),
-            );
-
-            if (this.state.deletedElements.indexOf(b.code) === -1) 
-                ITEMS.push(itemCode);
-        });
-
-        return React.DOM.div({className: "section__items"}, ITEMS);
+        );
     }
-})
+});
