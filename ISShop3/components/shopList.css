@@ -1,0 +1,48 @@
+.section__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: 1px solid rgba(109, 109, 109, 0.08);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.section__item--active {
+    background-color: #f600ff45;
+}
+
+.section__item .item__photo {
+   height: 3vw;
+   width: 3vw;
+   margin: 10px;
+}
+
+.section__item .item__name {
+    white-space: nowrap;
+    width: 20vw;
+    overflow: hidden;
+}
+
+.section__item .item__count {
+    width: 5vw;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin: 10px;
+}
+
+.section__item .item__price {
+    width: 5vw;
+    font-size: 1rem;
+}
+
+.section__item .btn__wrapper {
+    display: flex;
+    column-gap: 10px;
+}
+
+.section__item .item__btn {
+
+}

@@ -1,0 +1,50 @@
+.section__change {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    color: rgb(58, 58, 58);
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-left: 3vw;
+}
+
+.section__change .change__id {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section__change label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.section__change input {
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(223, 223, 223));
+    border: 1px solid rgb(214, 214, 214);
+    width: 20vw;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+
+.section__change button {
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(223, 223, 223));
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 2rem 10px;
+}
+
+.section__change .input__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__change .input__err {
+    font-size: 0.8rem;
+    color: red;
+}
