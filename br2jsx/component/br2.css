@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: rgb(19, 100, 138);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 20px;
+}
