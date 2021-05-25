@@ -13,9 +13,8 @@ class Br2 extends React.Component {
     render() {
         let textArr = this.props.text.split(/<br\s*\/?>/);
         let newArr = [];
-        let key = 1;
         textArr.forEach((b, i) => {
-            if (i) newArr.push(<br key = {key++}/>);
+            if (i) newArr.push(<br key = {i}/>);
             newArr.push(b);
         });
         
