@@ -1,0 +1,18 @@
+﻿.MobileClient {
+  display: flex;
+}
+
+.MobileClient .clientCell {
+  width: 14vw;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.MobileClient .MobileClient__activeBalance {
+  background-color: rgb(47, 255, 47);
+}
+
+.MobileClient .MobileClient__blockedBalance {
+  background-color: red;
+}

@@ -1,0 +1,20 @@
+﻿.MobileCompany__buttonsWrap {
+  border-top: 1px solid rgb(201, 201, 201);
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 10px;
+}
+
+.MobileCompany__clientsWrap > div {
+  border-top: 1px solid rgb(201, 201, 201);
+  padding: 0 10px;
+}
+
+.MobileCompany__clientsWrap .clientsWrap__header {
+  display: flex;
+}
+
+.clientsWrap__header .header__cell  {
+  display: block;
+  width: 14vw;
+  padding: 15px 5px;
+}
