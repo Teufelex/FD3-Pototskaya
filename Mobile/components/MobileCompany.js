@@ -2,8 +2,12 @@
 import PropTypes from 'prop-types';
 import MobileClient from './MobileClient';
 import { companyEvents } from './events';
+import filterClients from './filterClients';
+import _addNewClient from './addNewClient';
+import saveChanges from './saveChanges';
 
 import './MobileCompany.css';
+import deleteElem from './deleteClient';
 
 class MobileCompany extends React.PureComponent {
 
@@ -33,14 +37,46 @@ class MobileCompany extends React.PureComponent {
     this.setState({workMode: 1});
   }
 
+  selectedAll = () => {
+    this.setState({clients: this.state.initialClientsList});
+  }
+
+  selectedActive = () => {
+    this.setState({clients: filterClients(this.state.initialClientsList)});
+  }
+
+  selectedBlocked = () => {
+    this.setState({clients: filterClients(this.state.initialClientsList, false)});
+  }
+
+  addNewClient = () => {
+    let newList = _addNewClient(this.state.initialClientsList);
+    this.setState({clients: newList, initialClientsList: newList});
+  }
+
+  e_deleteClient = (client) => {
+    if (confirm("Вы уверены, что хотите удалить этого клиента?")) 
+    this.setState({
+      clients: deleteElem(this.state.clients, client),
+      initialClientsList: deleteElem(this.state.initialClientsList, client),
+    });
+  }
+
+  e_saveNewInfo = (client) => {
+    this.setState({
+      clients: saveChanges(this.state.clients, client),
+      initialClientsList: saveChanges(this.state.initialClientsList, client),
+    });
+  }
+
   componentDidMount = () => {
-    //voteEvents.addListener('EAnswerClicked',this.answerSelected);
-    //voteEvents.addListener('EFreeAnswerTextChanged',this.freeAnswerTextChanged);
+    companyEvents.addListener('DeleteClient',this.e_deleteClient);
+    companyEvents.addListener('SaveNewInfo',this.e_saveNewInfo);
   };
 
   componentWillUnmount = () => {
-    //voteEvents.removeListener('EAnswerClicked',this.answerSelected);
-    //voteEvents.removeListener('EFreeAnswerTextChanged',this.freeAnswerTextChanged);
+    companyEvents.removeListener('DeleteClient',this.e_deleteClient);
+    companyEvents.removeListener('SaveNewInfo',this.e_saveNewInfo);
   };
   
   render() {
@@ -59,9 +95,9 @@ class MobileCompany extends React.PureComponent {
           <div>Компания: {(this.state.workMode === 1) ? "Velcom" : "МТС"}</div>
         </div>
         <div className = "MobileCompany__buttonsWrap">
-          <input type = "button" value = "Все"/>
-          <input type = "button" value = "Активный"/>
-          <input type = "button" value = "Заблокированные"/>
+          <input type = "button" value = "Все" onClick = {this.selectedAll}/>
+          <input type = "button" value = "Активный" onClick = {this.selectedActive}/>
+          <input type = "button" value = "Заблокированные" onClick = {this.selectedBlocked}/>
         </div>
         <div className = "MobileCompany__clientsWrap">
           <div className = "clientsWrap__header">
@@ -75,7 +111,7 @@ class MobileCompany extends React.PureComponent {
           </div>
           {clients}
         </div>
-        <input type = "button" value = "Добавить клиента"/>
+        <input type = "button" value = "Добавить клиента" onClick = {this.addNewClient}/>
       </div>
     );
   }
