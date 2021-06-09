@@ -1,0 +1,1714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`работа MobileCompany 1`] = `
+<div
+  className="MobileCompany"
+>
+  <div
+    className="MobileCompany__buttonsWrap"
+  >
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Все"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Активный"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Заблокированные"
+    />
+  </div>
+  <div
+    className="MobileCompany__clientsWrap"
+  >
+    <div
+      className="clientsWrap__header"
+    >
+      <span
+        className="header__cell"
+      >
+        Фамилия
+      </span>
+      <span
+        className="header__cell"
+      >
+        Имя
+      </span>
+      <span
+        className="header__cell"
+      >
+        Отчество
+      </span>
+      <span
+        className="header__cell"
+      >
+        Баланс
+      </span>
+      <span
+        className="header__cell"
+      >
+        Статус
+      </span>
+      <span
+        className="header__cell"
+      >
+        Редактировать
+      </span>
+      <span
+        className="header__cell"
+      >
+        Удалить
+      </span>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванов
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иван
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        200
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидоров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидор
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидорович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        250
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Пётр
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петрович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        180
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьев
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорий
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьевич
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        220
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Добавить клиента"
+  />
+</div>
+`;
+
+exports[`работа MobileCompany 2`] = `
+<div
+  className="MobileCompany"
+>
+  <div
+    className="MobileCompany__buttonsWrap"
+  >
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Все"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Активный"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Заблокированные"
+    />
+  </div>
+  <div
+    className="MobileCompany__clientsWrap"
+  >
+    <div
+      className="clientsWrap__header"
+    >
+      <span
+        className="header__cell"
+      >
+        Фамилия
+      </span>
+      <span
+        className="header__cell"
+      >
+        Имя
+      </span>
+      <span
+        className="header__cell"
+      >
+        Отчество
+      </span>
+      <span
+        className="header__cell"
+      >
+        Баланс
+      </span>
+      <span
+        className="header__cell"
+      >
+        Статус
+      </span>
+      <span
+        className="header__cell"
+      >
+        Редактировать
+      </span>
+      <span
+        className="header__cell"
+      >
+        Удалить
+      </span>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванов
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иван
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        200
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидоров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидор
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидорович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        250
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Пётр
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петрович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        180
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьев
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорий
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьевич
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        220
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        0
+      </span>
+      <span
+        className="clientCell MobileClient__blockedBalance"
+      >
+        blocked
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Добавить клиента"
+  />
+</div>
+`;
+
+exports[`работа MobileCompany 3`] = `
+<div
+  className="MobileCompany"
+>
+  <div
+    className="MobileCompany__buttonsWrap"
+  >
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Все"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Активный"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Заблокированные"
+    />
+  </div>
+  <div
+    className="MobileCompany__clientsWrap"
+  >
+    <div
+      className="clientsWrap__header"
+    >
+      <span
+        className="header__cell"
+      >
+        Фамилия
+      </span>
+      <span
+        className="header__cell"
+      >
+        Имя
+      </span>
+      <span
+        className="header__cell"
+      >
+        Отчество
+      </span>
+      <span
+        className="header__cell"
+      >
+        Баланс
+      </span>
+      <span
+        className="header__cell"
+      >
+        Статус
+      </span>
+      <span
+        className="header__cell"
+      >
+        Редактировать
+      </span>
+      <span
+        className="header__cell"
+      >
+        Удалить
+      </span>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванов
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иван
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        200
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидоров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидор
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидорович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        250
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Пётр
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петрович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        180
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьев
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорий
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьевич
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        220
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        0
+      </span>
+      <span
+        className="clientCell MobileClient__blockedBalance"
+      >
+        blocked
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        0
+      </span>
+      <span
+        className="clientCell MobileClient__blockedBalance"
+      >
+        blocked
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Добавить клиента"
+  />
+</div>
+`;
+
+exports[`работа MobileCompany 4`] = `
+<div
+  className="MobileCompany"
+>
+  <div
+    className="MobileCompany__buttonsWrap"
+  >
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Все"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Активный"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Заблокированные"
+    />
+  </div>
+  <div
+    className="MobileCompany__clientsWrap"
+  >
+    <div
+      className="clientsWrap__header"
+    >
+      <span
+        className="header__cell"
+      >
+        Фамилия
+      </span>
+      <span
+        className="header__cell"
+      >
+        Имя
+      </span>
+      <span
+        className="header__cell"
+      >
+        Отчество
+      </span>
+      <span
+        className="header__cell"
+      >
+        Баланс
+      </span>
+      <span
+        className="header__cell"
+      >
+        Статус
+      </span>
+      <span
+        className="header__cell"
+      >
+        Редактировать
+      </span>
+      <span
+        className="header__cell"
+      >
+        Удалить
+      </span>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванов
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иван
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        200
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидоров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидор
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидорович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        250
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Пётр
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петрович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        180
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьев
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорий
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьевич
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        220
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Добавить клиента"
+  />
+</div>
+`;
+
+exports[`работа MobileCompany 5`] = `
+<div
+  className="MobileCompany"
+>
+  <div
+    className="MobileCompany__buttonsWrap"
+  >
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Все"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Активный"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Заблокированные"
+    />
+  </div>
+  <div
+    className="MobileCompany__clientsWrap"
+  >
+    <div
+      className="clientsWrap__header"
+    >
+      <span
+        className="header__cell"
+      >
+        Фамилия
+      </span>
+      <span
+        className="header__cell"
+      >
+        Имя
+      </span>
+      <span
+        className="header__cell"
+      >
+        Отчество
+      </span>
+      <span
+        className="header__cell"
+      >
+        Баланс
+      </span>
+      <span
+        className="header__cell"
+      >
+        Статус
+      </span>
+      <span
+        className="header__cell"
+      >
+        Редактировать
+      </span>
+      <span
+        className="header__cell"
+      >
+        Удалить
+      </span>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        0
+      </span>
+      <span
+        className="clientCell MobileClient__blockedBalance"
+      >
+        blocked
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        0
+      </span>
+      <span
+        className="clientCell MobileClient__blockedBalance"
+      >
+        blocked
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Добавить клиента"
+  />
+</div>
+`;
+
+exports[`работа MobileCompany 6`] = `
+<div
+  className="MobileCompany"
+>
+  <div
+    className="MobileCompany__buttonsWrap"
+  >
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Все"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Активный"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Заблокированные"
+    />
+  </div>
+  <div
+    className="MobileCompany__clientsWrap"
+  >
+    <div
+      className="clientsWrap__header"
+    >
+      <span
+        className="header__cell"
+      >
+        Фамилия
+      </span>
+      <span
+        className="header__cell"
+      >
+        Имя
+      </span>
+      <span
+        className="header__cell"
+      >
+        Отчество
+      </span>
+      <span
+        className="header__cell"
+      >
+        Баланс
+      </span>
+      <span
+        className="header__cell"
+      >
+        Статус
+      </span>
+      <span
+        className="header__cell"
+      >
+        Редактировать
+      </span>
+      <span
+        className="header__cell"
+      >
+        Удалить
+      </span>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванов
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иван
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Иванович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        200
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидоров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидор
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Сидорович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        250
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петров
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Пётр
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Петрович
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        180
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьев
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорий
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        Григорьевич
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        220
+      </span>
+      <span
+        className="clientCell MobileClient__activeBalance"
+      >
+        active
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        0
+      </span>
+      <span
+        className="clientCell MobileClient__blockedBalance"
+      >
+        blocked
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+    <div
+      className="MobileClient"
+    >
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientFIO clientCell"
+      >
+        
+      </span>
+      <span
+        className="MobileClientBalance clientCell"
+      >
+        0
+      </span>
+      <span
+        className="clientCell MobileClient__blockedBalance"
+      >
+        blocked
+      </span>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Редактировать"
+        />
+      </div>
+      <div
+        className="clientCell"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="Удалить"
+        />
+      </div>
+    </div>
+  </div>
+  <input
+    onClick={[Function]}
+    type="button"
+    value="Добавить клиента"
+  />
+</div>
+`;
